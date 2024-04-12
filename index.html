@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>FrontendPro Sandbox</title>
+	<meta charset="UTF-8" />
+	<!-- DO NOT import fonts here. Instead, use the 
+  @import directive in the styles.css file. -->
+	<link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+	<div class="container">
+		<h1 class="title">Level Up Your Frontend Skills</h1>
+		<p class="text">
+			Sign up for our free newsiestter to recevive weekly coding challenges that
+			will help you improve your frontend development skills.
+		</p>
+		<form>
+			<div class="submit-content">
+				<input pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" required name="email" class="email" type="email"
+					placeholder="Enter your email address">
+				<button type="submit">Subscribe</button>
+			</div>
+			<div class="conditions">
+				<div class="inputCheckbox">
+					<input required name="checkbox" class="checkbox" type="checkbox">
+				</div>
+				<p class="conditions_text">
+					By checking you agree to receive our weekly newsiestter controlling
+					coding challenges, tips, and other related content. You may unsubscribe from the newsiestter at any time
+				</p>
+			</div>
+		</form>
+	</div>
+
+	<!-- DON'T remove it -->
+	<script src="./index.js"></script>
+</body>
+
+</html>
