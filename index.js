@@ -11,6 +11,4 @@ form.addEventListener('submit', e => {
 	formData.forEach((key, value) => {
 		obj[key] = value
 	})
-
-	console.log(obj)
 })
